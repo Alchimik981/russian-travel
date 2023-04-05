@@ -8,3 +8,17 @@
   justify-content: center;
   position: relative;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    margin-top: 92px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    width: 320px;
+    margin-top: 66px;
+  }
+}

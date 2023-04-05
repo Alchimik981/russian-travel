@@ -2,6 +2,7 @@
   position: absolute;
   background-image: url(../../../images/__background.jpg);
   background-repeat: no-repeat;
+  background-position: right;
   background-size: cover;
   width: 100%;
   height: 740px;
@@ -14,4 +15,23 @@
   background-color: #2A2C2F;
   opacity: 0.3;
   transition: 1s;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    width: 100%;
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    height: 200px;
+  }
 }

@@ -1,7 +1,8 @@
 .place__paragraph {
   margin: 26px 0 0 40px;
   padding: 0;
-  width: 484px;
+  max-width: 484px;
+  min-height: 116px;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
@@ -9,4 +10,28 @@
 
 .place__paragraph:first-of-type {
   margin: 48px 0 0 40px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    margin: 25px 0 0 28px;
+    padding: 0;
+    max-width: 352px;
+    min-height: 116px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .place__paragraph:first-of-type {
+    margin: 48px 0 0 28px;
+    padding: 0;
+  }
 }
