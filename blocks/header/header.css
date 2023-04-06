@@ -1,6 +1,6 @@
 .header {
   width: 90%;
-  height: 52px;
+  min-height: 42px;
   padding-top: 28px;
   margin: auto;
   position: relative;
