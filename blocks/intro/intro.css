@@ -7,20 +7,21 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .intro {
     width: 67%;
     margin: 92px 0 0 48px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .intro {
-    margin: 88px 0 0 24px;
+    width: 720px;
+    margin: 88px 24px 0 24px;
   }
 }
 
-@media screen and (max-width: 2560px) {
+@media screen and (max-width: 2560px) and (min-width: 1440px) {
   .intro {
     width: 77%;
     margin: 92px auto 0 auto;

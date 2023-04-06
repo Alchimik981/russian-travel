@@ -1,9 +1,7 @@
 .place__website {
-  display: block;
-  margin: 102px 0 0px 40px;
-  padding: 0;
   width: 456px;
   height: 46px;
+  align-self: end;
 }
 
 @media screen and (max-width: 768px) {
