@@ -20,7 +20,16 @@
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px) {
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .place__image {
+    width: 320px;
+    height: 320px;
+    object-fit: contain;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 320px) {
   .place__image {
     width: 320px;
     height: 320px;
