@@ -1,6 +1,5 @@
 .foto-grid {
   width: 92.5%;
-  min-height: 671px;
   margin: 92px auto 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
@@ -20,9 +19,9 @@
   }
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .foto-grid {
-    width: 280px;
+    width: 288px;
     margin-top: 64px;
   }
 }
@@ -30,9 +29,6 @@
 @media screen and (min-width: 1440px) {
   .foto-grid {
     width: 90%;
-    min-height: 671px;
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
   }
 }

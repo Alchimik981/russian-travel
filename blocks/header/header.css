@@ -3,7 +3,8 @@
   min-height: 42px;
   padding-top: 28px;
   margin: auto;
-  position: relative;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
 }
+
+

@@ -14,18 +14,13 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__paragraph {
     max-width: 352px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
   }
 }
 
 @media screen and (min-width: 1px) and (max-width: 767px) {
   .place__paragraph {
-    margin: 25px 0 0 16px;
-  }
-
-  .place__paragraph:first-of-type {
-    margin: 32px 0 0 16px;
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 26px;
   }
 }

@@ -1,4 +1,4 @@
-.place__website_link {
+.place__link {
   display: block;
   margin: 12px 0 0 0;
   padding: 0;
@@ -7,4 +7,8 @@
   line-height: 22px;
   text-decoration: underline;
   color: #ffffff;
+}
+
+.place__link:hover {
+  cursor: pointer;
 }

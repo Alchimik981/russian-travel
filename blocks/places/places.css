@@ -21,7 +21,6 @@
   .places {
     margin: 64px auto 0 auto;
     max-width: 767px;
-    min-height: 1016px;
   }
 }
 
@@ -29,6 +28,5 @@
   .places {
     margin: 64px 000 0 0;
     max-width: 767px;
-    min-height: 1016px;
   }
 }
