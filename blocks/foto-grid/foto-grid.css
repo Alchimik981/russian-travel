@@ -1,5 +1,5 @@
 .foto-grid {
-  width: 92.5%;
+  max-width: 1184px;
   margin: 92px auto 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
@@ -26,9 +26,3 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .foto-grid {
-    width: 90%;
-    grid-template-columns: repeat(4, 1fr);
-  }
-}

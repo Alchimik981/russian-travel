@@ -1,8 +1,6 @@
 .intro {
-  margin-top: 92px;
-  margin-left: 148px;
-  width: 54%;
-  min-height: 429px;
+  margin: 92px auto 0 auto;
+  max-width: 984px;
   display: flex;
   flex-direction: column;
 }
@@ -28,9 +26,3 @@
   }
 }
 
-@media screen and (max-width: 2560px) and (min-width: 1440px) {
-  .intro {
-    width: 77%;
-    margin: 92px auto 0 auto;
-  }
-}
