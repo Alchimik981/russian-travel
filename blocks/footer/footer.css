@@ -22,8 +22,6 @@
   .footer {
     width: 90%;
     margin: 64px 118px 0 16px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
 }

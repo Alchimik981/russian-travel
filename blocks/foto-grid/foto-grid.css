@@ -23,6 +23,7 @@
   .foto-grid {
     width: 288px;
     margin-top: 64px;
+    gap: 12px;
   }
 }
 
