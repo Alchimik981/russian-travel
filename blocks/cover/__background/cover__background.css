@@ -29,13 +29,14 @@
 }
 
 .cover__background:hover::before {
+  content: "";
   opacity: 0.8;
   transition: all 0.5s linear;
 }
 
 .cover__background:hover {
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -50,7 +51,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px)   {
   .cover__background {
     min-height: 200px;
   }
